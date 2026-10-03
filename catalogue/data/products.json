@@ -1,0 +1,108 @@
+{
+  "document": {
+    "title": "LOADED Product Catalogue",
+    "company": "A.G. Manufacturing and Trading Pvt. Ltd.",
+    "portfolioReference": "Bhadra 01, 2083",
+    "note": "Product SKU and specification reference. Prices are intentionally excluded."
+  },
+  "categories": [
+    {
+      "name": "Motor Engine Oil",
+      "purpose": "Lubrication and protection for diesel and petrol engines across heavy-duty, commercial and passenger applications.",
+      "products": [
+        {"sku": "Loaded 15W-40 CI-4", "sae": "15W-40", "grade": "API CI-4", "packs": ["1 L", "4 L", "6 L", "8 L", "10 L", "15 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Loaded 15W-40 CH-4", "sae": "15W-40", "grade": "API CH-4", "packs": ["1 L", "4 L", "6 L", "8 L", "10 L", "15 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Loaded 15W-40 CF", "sae": "15W-40", "grade": "API CF", "packs": ["1 L", "4 L", "6 L", "8 L", "10 L", "15 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Loaded 20W-50 SL", "sae": "20W-50", "grade": "API SL", "packs": ["1 L", "4 L", "8 L", "10 L", "18 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Loaded 20W-40 CF", "sae": "20W-40", "grade": "API CF", "packs": ["1 L", "4 L", "6 L", "8 L", "10 L", "15 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Pro-40", "sae": "SAE 40", "grade": "API CF", "packs": ["1 L", "2 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Loaded 10W-40 SP", "sae": "10W-40", "grade": "API SP - Semi-synthetic", "packs": ["1 L", "3 L", "4 L"]},
+        {"sku": "Loaded 5W-30 SP", "sae": "5W-30", "grade": "API SP - Fully synthetic", "packs": ["1 L", "3 L", "4 L"]}
+      ]
+    },
+    {
+      "name": "Passenger Car Engine Oil",
+      "purpose": "Everyday protection for petrol passenger vehicles.",
+      "products": [
+        {"sku": "City Drive", "sae": "20W-50", "grade": "API SL", "packs": ["3 L"]}
+      ]
+    },
+    {
+      "name": "Motorcycle Oil",
+      "purpose": "Engine oils for scooters, motorcycles, three-wheelers and 2-stroke equipment.",
+      "products": [
+        {"sku": "4T R Scooter Oil", "sae": "10W-30", "grade": "API SL", "packs": ["800 mL", "1 L"]},
+        {"sku": "BIKERS 4T", "sae": "20W-40", "grade": "API SL", "packs": ["1 L", "1.2 L"]},
+        {"sku": "BIKERS 4T+", "sae": "20W-50", "grade": "API SL", "packs": ["1 L", "1.2 L"]},
+        {"sku": "ROYAL 4T", "sae": "15W-50", "grade": "API SL", "packs": ["2.5 L"]},
+        {"sku": "2T Racer", "sae": "2T", "grade": "API TC", "packs": ["1 L"]},
+        {"sku": "Auto Drive", "sae": "20W-50", "grade": "API SL", "packs": ["2 L"]}
+      ]
+    },
+    {
+      "name": "Agro Engine Oil",
+      "purpose": "Engine protection for agricultural pumps and utility equipment.",
+      "products": [
+        {"sku": "PSO", "sae": "20W-50", "grade": "API SL", "packs": ["3.5 L"]}
+      ]
+    },
+    {
+      "name": "Hydraulic Oil",
+      "purpose": "Anti-wear fluid for hydraulic pumps, mobile equipment and industrial hydraulic systems.",
+      "products": [
+        {"sku": "Hydro 10W", "sae": "10W", "grade": "Hydraulic oil", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Hydro ISO VG 46", "sae": "ISO VG 46", "grade": "Anti-wear hydraulic oil", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Hydro ISO VG 68", "sae": "ISO VG 68", "grade": "Anti-wear hydraulic oil", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]}
+      ]
+    },
+    {
+      "name": "Gear and Transmission Oil",
+      "purpose": "Lubrication for transmissions, differentials, axles and agricultural drivetrains.",
+      "products": [
+        {"sku": "Loaded ATF TQ", "sae": "ATF TQ", "grade": "Automatic transmission fluid", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Loaded UTTO", "sae": "10W-30", "grade": "UTTO", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil 85W-140", "sae": "85W-140", "grade": "API GL-5", "packs": ["1 L", "4 L", "8 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil 80W-90", "sae": "80W-90", "grade": "API GL-5", "packs": ["1 L", "4 L", "8 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil 85W-140", "sae": "85W-140", "grade": "API GL-4", "packs": ["1 L", "4 L", "8 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil 80W-90", "sae": "80W-90", "grade": "API GL-4", "packs": ["1 L", "4 L", "8 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil EP 90", "sae": "EP 90", "grade": "API GL-3", "packs": ["1 L", "4 L", "8 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil EP 140", "sae": "EP 140", "grade": "API GL-3", "packs": ["1 L", "4 L", "8 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Gear Oil FLO Grade", "sae": "FLO Grade", "grade": "API GL-1", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Multi Axle", "sae": "80W-90", "grade": "API GL-5", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]}
+      ]
+    },
+    {
+      "name": "Industrial Oil",
+      "purpose": "Specialty fluids for machining, electrical insulation, spindles, compressors and turbines.",
+      "products": [
+        {"sku": "Cutting Oil", "sae": "ISO VG 22", "grade": "Premium cutting oil", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Transformer Oil", "sae": "IEC 60296", "grade": "Premium transformer oil", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Spindle Oil", "sae": "ISO VG 10/22", "grade": "Premium spindle oil", "packs": ["50 L", "200 L"]},
+        {"sku": "Compressor Oil", "sae": "ISO VG 68", "grade": "Premium compressor oil", "packs": ["1 L", "4 L", "10 L", "20 L", "50 L", "200 L"]},
+        {"sku": "Turbine Oil", "sae": "ISO VG 46/68", "grade": "Premium turbine oil", "packs": ["50 L", "200 L"]}
+      ]
+    },
+    {
+      "name": "Automotive Grease",
+      "purpose": "Greases for chassis points, bearings and demanding automotive or industrial service.",
+      "products": [
+        {"sku": "Chesis Grease", "sae": "NLGI 2", "grade": "Multi-purpose grease", "packs": ["200 g", "500 g", "1 kg", "2 kg", "3 kg", "5 kg", "10 kg", "18 kg", "180 kg"]},
+        {"sku": "White Calcium", "sae": "NLGI 2", "grade": "Calcium base grease", "packs": ["200 g", "500 g", "1 kg", "2 kg", "3 kg", "5 kg", "10 kg", "18 kg", "180 kg"]},
+        {"sku": "APLR", "sae": "NLGI 2", "grade": "Multi-purpose EP grease", "packs": ["200 g", "500 g", "1 kg", "2 kg", "3 kg", "5 kg", "10 kg", "18 kg", "180 kg"]},
+        {"sku": "White Lithium", "sae": "NLGI 2", "grade": "Lithium EP grease", "packs": ["200 g", "500 g", "1 kg", "2 kg", "3 kg", "5 kg", "10 kg", "18 kg", "180 kg"]},
+        {"sku": "Red Lithium", "sae": "NLGI 2", "grade": "Lithium complex EP grease", "packs": ["200 g", "500 g", "1 kg", "2 kg", "3 kg", "5 kg", "10 kg", "18 kg", "180 kg"]}
+      ]
+    },
+    {
+      "name": "Cooling and Service Fluids",
+      "purpose": "Cooling system care, suspension service and hydraulic brake fluids.",
+      "products": [
+        {"sku": "Cool-X RTU", "sae": "RTU", "grade": "Ready-to-use coolant", "packs": ["1 L", "4 L"]},
+        {"sku": "Cool-X 1:4", "sae": "Concentrate 1:4", "grade": "Coolant concentrate", "packs": ["1 L", "4 L"]},
+        {"sku": "Fork Tech", "sae": "Fork oil", "grade": "Suspension service fluid", "packs": ["175 mL", "350 mL"]},
+        {"sku": "Brake Fluid DOT-3", "sae": "J1703", "grade": "DOT 3", "packs": ["250 mL", "500 mL"]},
+        {"sku": "Brake Fluid DOT-4", "sae": "J1704", "grade": "DOT 4", "packs": ["250 mL", "500 mL"]}
+      ]
+    }
+  ]
+}
