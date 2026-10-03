@@ -86,7 +86,7 @@ const applications = [
 const compactNumber = new Intl.NumberFormat("en-IN");
 
 function Arrow() {
-  return <span aria-hidden="true">↗</span>;
+  return null;
 }
 
 export default function Home() {
@@ -149,6 +149,7 @@ export default function Home() {
             <a href="#company" onClick={() => setMenuOpen(false)}>Company</a>
             <a href="#brands" onClick={() => setMenuOpen(false)}>Brands</a>
             <a href="#products" onClick={() => setMenuOpen(false)}>Products</a>
+            <a href="#brochure" onClick={() => setMenuOpen(false)}>Brochure</a>
             <a href="#quality" onClick={() => setMenuOpen(false)}>Quality</a>
             <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
           </nav>
@@ -355,6 +356,49 @@ export default function Home() {
               </div>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="brochure-section" id="brochure">
+        <div className="shell brochure-layout">
+          <div className="brochure-visual">
+            <img
+              className="brochure-cover"
+              src="/brochures/loaded-catalogue-cover.png"
+              alt="Cover of the LOADED lubricant product catalogue"
+            />
+            <span className="brochure-edition">Product catalogue · 2026</span>
+          </div>
+          <div className="brochure-content">
+            <div className="eyebrow eyebrow-light"><span /> Technical brochure</div>
+            <h2>Everything LOADED.<br />In one catalogue.</h2>
+            <p>
+              Review the complete lubricant range, pack sizes, applications and technical grade guide
+              for automotive, agricultural and industrial use.
+            </p>
+            <div className="brochure-facts" aria-label="Catalogue highlights">
+              <div><strong>44</strong><span>Product SKUs</span></div>
+              <div><strong>10</strong><span>Core categories</span></div>
+              <div><strong>175 mL–200 L</strong><span>Pack range</span></div>
+            </div>
+            <div className="brochure-actions">
+              <a
+                className="button button-yellow"
+                href="/brochures/AG-Manufacturing-LOADED-Product-Catalogue.pdf"
+                download
+              >
+                Download brochure
+              </a>
+              <a
+                className="button button-outline-light"
+                href="https://wa.me/9779867756460?text=Hello%20A.G.%20Manufacturing%2C%20I%20reviewed%20the%20LOADED%20product%20catalogue%20and%20would%20like%20product%20or%20dealership%20information."
+                target="_blank"
+                rel="noreferrer"
+              >
+                Enquire on WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -573,6 +617,7 @@ export default function Home() {
             <a href="#company">Company</a>
             <a href="#brands">Brands</a>
             <a href="#products">Products</a>
+            <a href="#brochure">Brochure</a>
             <a href="#quality">Quality</a>
             <a href="#contact">Contact</a>
           </div>
@@ -588,4 +633,3 @@ export default function Home() {
     </main>
   );
 }
-

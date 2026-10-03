@@ -2358,3 +2358,573 @@ img {
   }
 }
 
+/* Industrial editorial refinement */
+:root {
+  --ink: #11151a;
+  --ink-soft: #20262d;
+  --paper: #f7f8f8;
+  --cream: #e9edf0;
+  --line: rgba(17, 21, 26, 0.16);
+  --muted: #5f6871;
+  --yellow: #efb900;
+  --yellow-light: #ffd65a;
+  --blue: #064aa8;
+  --blue-deep: #092f68;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+  background: rgba(247, 248, 248, 0.96);
+  backdrop-filter: blur(10px);
+}
+
+.header-inner {
+  min-height: 76px;
+}
+
+.brand-lockup img {
+  width: 46px;
+  height: 46px;
+}
+
+.main-nav {
+  gap: 20px;
+}
+
+.main-nav a {
+  padding-block: 28px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.main-nav a::after {
+  bottom: 21px;
+}
+
+.hero {
+  background: #edf0f2;
+}
+
+.hero-grid {
+  opacity: 0.35;
+  background-image: linear-gradient(90deg, rgba(17, 21, 26, 0.07) 1px, transparent 1px);
+  background-size: calc(100% / 12) 100%;
+  mask-image: none;
+}
+
+.hero-inner {
+  grid-template-columns: minmax(0, 0.88fr) minmax(500px, 1.12fr);
+  gap: 58px;
+  min-height: 690px;
+  padding-block: 74px 94px;
+}
+
+.hero h1,
+.section h2,
+.product-showcase h2,
+.dealer-section h2,
+.contact-section h2 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.055em;
+}
+
+.hero h1 {
+  max-width: 720px;
+  font-size: clamp(56px, 5.6vw, 88px);
+  line-height: 0.98;
+  text-transform: none;
+}
+
+.hero h1 em,
+.company-heading em {
+  color: var(--blue);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: inherit;
+}
+
+.hero-lede {
+  max-width: 560px;
+  font-size: 16px;
+}
+
+.button {
+  justify-content: center;
+  gap: 12px;
+  min-height: 52px;
+  padding-inline: 22px;
+  border-radius: 2px;
+  letter-spacing: 0.09em;
+}
+
+.hero-visual {
+  min-height: 550px;
+}
+
+.hero-visual::before {
+  inset: 5% 0 4%;
+  border-radius: 3px;
+  background:
+    linear-gradient(120deg, rgba(255,255,255,0.97), rgba(229,233,237,0.98)),
+    #fff;
+  box-shadow: 0 28px 68px rgba(17, 21, 26, 0.12);
+}
+
+.hero-visual::after,
+.hero-wordmark,
+.hero-orbit,
+.made-in-nepal {
+  display: none;
+}
+
+.hero-product {
+  overflow: visible;
+}
+
+.hero-product img {
+  object-fit: contain;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0 22px 20px rgba(17, 21, 26, 0.19));
+}
+
+.hero-product-left {
+  bottom: 30px;
+  left: 2%;
+  width: 230px;
+  height: 300px;
+  transform: none;
+}
+
+.hero-product-main {
+  bottom: 22px;
+  left: 29%;
+  width: 320px;
+  height: 430px;
+}
+
+.hero-product-right {
+  right: 0;
+  bottom: 30px;
+  width: 245px;
+  height: 310px;
+  transform: none;
+}
+
+.hero-label {
+  top: 48px;
+  left: 30px;
+  width: auto;
+  min-height: 0;
+  padding: 14px 18px;
+  border-left: 4px solid var(--yellow);
+  border-radius: 0;
+  transform: none;
+}
+
+.hero-label strong {
+  font-size: 18px;
+}
+
+.hero-bottomline span::before {
+  width: 4px;
+  height: 4px;
+  background: var(--yellow);
+  content: "";
+}
+
+.section {
+  padding-block: 104px;
+}
+
+.section-kicker span {
+  width: 38px;
+  height: 38px;
+  border-radius: 2px;
+}
+
+.company-heading h2,
+.section-heading-row h2,
+.showcase-heading h2,
+.catalogue-heading h2,
+.quality-title h2,
+.dealer-copy h2,
+.contact-heading h2 {
+  line-height: 1;
+  text-transform: none;
+}
+
+.feature-ledger > div {
+  min-height: 190px;
+}
+
+.brand-card {
+  min-height: 470px;
+  border-top: 5px solid var(--yellow);
+}
+
+.brand-loaded::before,
+.brand-aglube::before,
+.brand-aglube::after {
+  display: none;
+}
+
+.loaded-mark,
+.aglube-mark {
+  margin-top: 72px;
+}
+
+.loaded-mark i,
+.aglube-mark span {
+  border-radius: 2px;
+}
+
+.loaded-mark span,
+.quality-title > p {
+  font-family: inherit;
+  font-style: normal;
+}
+
+.brand-card-product,
+.brand-aglube .brand-card-product {
+  right: -26px;
+  bottom: -30px;
+  width: 300px;
+  height: 350px;
+}
+
+.brand-card-product img {
+  object-fit: contain;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0 22px 18px rgba(17, 21, 26, 0.16));
+}
+
+.application-card {
+  min-height: 260px;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.application-card:hover,
+.catalogue-card:hover {
+  transform: none;
+}
+
+.product-showcase {
+  background: #0d3c7d;
+}
+
+.showcase-track {
+  gap: 14px;
+}
+
+.showcase-card {
+  min-height: 450px;
+  border-top: 4px solid var(--tone);
+  background: #f5f6f7;
+}
+
+.showcase-card::after {
+  display: none;
+}
+
+.showcase-card img {
+  height: 340px;
+  padding: 24px 18px 0;
+  object-fit: contain;
+  mix-blend-mode: normal;
+}
+
+.brochure-section {
+  padding-block: 108px;
+  background: var(--ink);
+  color: var(--white);
+}
+
+.brochure-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.72fr) minmax(0, 1.28fr);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.brochure-visual {
+  position: relative;
+  display: flex;
+  min-height: 610px;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  background: #20262d;
+}
+
+.brochure-cover {
+  width: min(100%, 340px);
+  max-height: 510px;
+  object-fit: contain;
+  box-shadow: 0 28px 64px rgba(0, 0, 0, 0.4);
+}
+
+.brochure-edition {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.brochure-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 7vw;
+}
+
+.brochure-content h2 {
+  max-width: 720px;
+  margin: 0;
+  font-size: clamp(46px, 5vw, 76px);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.brochure-content > p {
+  max-width: 640px;
+  margin: 28px 0 0;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.brochure-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 42px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.brochure-facts > div {
+  padding: 20px 18px;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.brochure-facts > div:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.brochure-facts strong,
+.brochure-facts span {
+  display: block;
+}
+
+.brochure-facts strong {
+  color: var(--yellow-light);
+  font-size: 19px;
+}
+
+.brochure-facts span {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.54);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.brochure-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.button-outline-light {
+  border-color: rgba(255, 255, 255, 0.45);
+  color: var(--white);
+}
+
+.button-outline-light:hover {
+  border-color: var(--white);
+  background: var(--white);
+  color: var(--ink);
+}
+
+.category-filters button {
+  border-radius: 2px;
+}
+
+.catalogue-card {
+  border: 1px solid rgba(17, 21, 26, 0.09);
+  background: #eef0f2;
+}
+
+.quality-pattern {
+  display: none;
+}
+
+.iso-seal {
+  width: 220px;
+  height: auto;
+  min-height: 220px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-top: 6px solid var(--yellow);
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.iso-seal::before,
+.iso-seal::after {
+  display: none;
+}
+
+.dealer-card {
+  border-left: 6px solid var(--yellow);
+}
+
+.contact-section {
+  background: #e8b600;
+}
+
+@media (max-width: 1120px) {
+  .main-nav {
+    gap: 14px;
+  }
+
+  .hero-inner {
+    grid-template-columns: minmax(0, 1fr) minmax(420px, 0.95fr);
+    gap: 24px;
+  }
+
+  .brochure-content {
+    padding-inline: 5vw;
+  }
+}
+
+@media (max-width: 860px) {
+  .hero-inner {
+    display: block;
+    min-height: auto;
+  }
+
+  .hero-visual {
+    min-height: 520px;
+  }
+
+  .brochure-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .brochure-visual {
+    min-height: 560px;
+    padding: 32px;
+  }
+
+  .brochure-cover {
+    width: min(100%, 360px);
+  }
+
+  .brochure-content {
+    padding: 52px 36px;
+  }
+
+  .brochure-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .brochure-facts > div,
+  .brochure-facts > div:first-child {
+    padding: 14px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    border-left: 0;
+  }
+
+  .brochure-facts > div:first-child {
+    border-top: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero h1 {
+    font-size: clamp(48px, 13.5vw, 66px);
+  }
+
+  .hero-visual {
+    left: 50%;
+    width: 106vw;
+    min-height: 410px;
+  }
+
+  .hero-product-left {
+    bottom: 24px;
+    left: 1%;
+    width: 145px;
+    height: 205px;
+  }
+
+  .hero-product-main {
+    bottom: 14px;
+    left: 29%;
+    width: 205px;
+    height: 300px;
+  }
+
+  .hero-product-right {
+    right: 1%;
+    bottom: 24px;
+    width: 148px;
+    height: 205px;
+  }
+
+  .hero-label {
+    top: 30px;
+    left: 22px;
+    width: auto;
+    min-height: 0;
+    padding: 12px 14px;
+  }
+
+  .company-heading h2,
+  .section-heading-row h2,
+  .showcase-heading h2,
+  .catalogue-heading h2,
+  .quality-title h2,
+  .dealer-copy h2,
+  .contact-heading h2 {
+    font-size: clamp(40px, 11.5vw, 56px);
+  }
+
+  .brand-card {
+    min-height: 480px;
+  }
+
+  .brochure-section {
+    padding-block: 72px;
+  }
+
+  .brochure-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .brochure-visual {
+    min-height: 470px;
+  }
+
+  .brochure-content {
+    padding: 48px 24px;
+  }
+
+  .brochure-content h2 {
+    font-size: clamp(42px, 12vw, 58px);
+  }
+
+  .brochure-actions {
+    display: grid;
+  }
+}
